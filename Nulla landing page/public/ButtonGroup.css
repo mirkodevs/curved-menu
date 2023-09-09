@@ -1,0 +1,23 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+padding: 0 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  border: none;
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+
+  padding-bottom: 15px;
+}
+
+.button.clicked {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+}

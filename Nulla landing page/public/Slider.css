@@ -1,0 +1,121 @@
+
+.slider-container {
+
+    display: grid;
+ 
+    width: 100%;
+}
+
+.slider {
+    
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+    place-items: center;
+    border-radius: 12px;
+}
+@media screen and (max-width:992px) {
+    .slider{
+        width: 95%;
+        
+     
+     
+    }
+}
+.slide-track {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+    
+
+}
+
+
+
+.slide-track:hover {
+    animation-play-state: paused;
+  
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 9));
+        /* meno la larghezza di un immagine meno la metà del numero delle immagini */
+    }
+}
+
+img {
+    width: 100%;
+    transition: transform 1s;
+    border-radius: 12px;
+}
+
+img:hover {
+    transform: translateZ(20px);
+    border-radius: 12px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, #f8f8fa 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: -5px;
+    top: 0;
+    transform: rotate(180deg);
+    /* Corretto "rotatez" in "rotate" e spazio tra "rotate" e "(180deg)" */
+}
+.slide {
+    height: 167px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px;
+   
+    position: relative; /* Add this line */
+  /* overflow:hidden ; */
+}
+
+.slide img {
+    width: 100%;
+    transition: transform 1s;
+    overflow: hidden;
+    
+}
+
+.slide:hover img {
+    transform: scale(1.2);
+}
+
+.slide::before { /* Add this pseudo-element for rounded corners */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 12px; /* Apply border-radius to the container */
+    pointer-events: none; /* Ensure it doesn't interfere with hover effects */
+}

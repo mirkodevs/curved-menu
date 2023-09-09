@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+
+import Home from "../components/Section/Home.astro";
+
+import Services from "../components/Section/Services.astro";
+import Anybusiness from "../components/Section/Anybusiness.astro";
+
+import Header from "../components/Header.astro"
+import GetStarted from "../components/Section/GetStarted.astro";
+import MeetPeople from "../components/Section/MeetPeople.astro";
+import FAQ from "../components/Section/FAQ.astro";
+import Why from "../components/Why.astro";
+import Footer from "../components/Section/Footer.astro";
+---
+ 
+<Layout title="Nulla | Build your own Website">
+<Header />
+	<Home />
+	<Services />
+	<Anybusiness />
+	<GetStarted />
+	<MeetPeople />
+	<FAQ />
+	<Why />
+	<Footer />
+</Layout>
+
+<style is:global>
+	* {
+		box-sizing: border-box;
+	}
+	.bg-secondary-p {
+		background-color: #f8f8fa;
+	}
+	.hero-heading {
+    width: 50%;
+  }
+  @media screen and (max-width: 992px) {
+    .hero-heading {
+      width: 95%;
+    }
+  }
+</style>

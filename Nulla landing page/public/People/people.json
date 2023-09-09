@@ -1,0 +1,17 @@
+const people = {
+    "immagini": [
+      {
+        "path": "public/People/craig.jpg"
+      },
+      {
+        "path": "public/People/matheus.jpg"
+      },
+      {
+        "path": "public/People/stefan.jpg"
+      },
+      {
+        "path": "public/People/vicky.jpg"
+      }
+    ]
+  }
+  
