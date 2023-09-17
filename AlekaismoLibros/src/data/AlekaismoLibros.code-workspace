@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../AlekaismoRead"
+		},
+		{
+			"path": "../../../Nulla landing page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AlekaismoLibros"
+	}
+}
