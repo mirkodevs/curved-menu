@@ -1,0 +1,290 @@
+ [
+    {
+        "id": 1,
+        "title": "Padre Rico, Padre Pobre",
+        "pages": 336,
+        "genre": "Emprendimiento",
+        "cover": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "Padre Rico, Padre Pobre es un libro superventas que comparte las lecciones financieras que el autor aprendió de dos 'padres' muy diferentes. El autor comparte los principios clave que le ayudaron a alcanzar la independencia financiera.",
+        "year": 1997,
+        "ISBN": "978-9707701116",
+        "author": {
+          "name": "Robert Kiyosaki",
+          "otherBooks": [
+            "El Cuadrante del Flujo de Dinero",
+            "El Negocio del Siglo 21"
+          ]
+        },
+        "file": "../../public/libros/Padre rico padre pobre - Robert Toru Kiyosaki.pdf"
+      },
+      
+      {
+        "id": 2,
+        "title": "Elon Musk: Tesla, SpaceX y la búsqueda de un futuro fantástico",
+        "pages": 400,
+        "genre": "Emprendimiento",
+        "cover": "https://m.media-amazon.com/images/I/81pt-1RKjXL._AC_UF1000,1000_QL80_.jpg",
+        "synopsis": "The book tells the story of Elon Musk, an entrepreneur and visionary known for his revolutionary projects in technology, such as Tesla, SpaceX, and more. Through detailed interviews and research, the book takes us into Musk's world, examining his vision for the future and how he has tirelessly worked to make it a reality.",
+        "year": 2015,
+        "ISBN": "978-0062301239",
+        "author": {
+          "name": "Ashlee Vance",
+          "otherBooks": [
+            "Bloomberg by Bloomberg",
+            "Geek Silicon Valley"
+          ]
+        },
+        "file" : "public/libros/Elon Musk. Un Futuro Fantástico - Ashley Vance.pdf"
+      },
+      {
+        "id": 3,
+        "title": "El Efecto Compuesto",
+        "pages": 0, 
+        "genre": "Emprendimiento",
+        "cover": "https://devoradoresdelibros.com/wp-content/uploads/2021/04/el-efecto-compuesto-darren-hardy.png",
+        "sinopsis": "El Efecto Compuesto, escrito por Darren Hardy, explora el poder de las pequeñas acciones realizadas de manera consistente a lo largo del tiempo. La premisa es que las pequeñas decisiones diarias, ya sean positivas o negativas, tienen un impacto acumulativo significativo en nuestro éxito y felicidad a largo plazo.",
+        "year": 0,  
+        "ISBN": "0000000000",  
+        "author": {
+          "name": "Darren Hardy",
+          "otherBooks": [
+           
+          ]
+        },
+        "file" :"public/libros/El Efecto Compuesto. Multiplicar el Exito de FormaSencilla.pdf"
+      },
+      {
+        "id": 4,
+        "title": "Hábitos Atómicos",
+        "pages": 0,
+        "genre": "Habitos",
+        "cover": "https://www.ibs.it/images/9786077476726_0_536_0_75.jpg",
+        "sinopsis": "Hábitos Atómicos, escrito por James Clear, explora el poder de los pequeños cambios y cómo pueden transformar tu vida. El autor aborda cómo los hábitos funcionan, cómo se pueden construir hábitos positivos y cómo eliminar los negativos, utilizando una metodología basada en la ciencia del comportamiento y ejemplos prácticos.",
+        "year": 0,
+        "ISBN": "0000000000",
+        "author": {
+          "name": "James Clear",
+          "otherBooks": []
+        },
+        "file" : "public/libros/Habitos/Hábitos Atómicos.pdf"
+      
+      
+      },
+      {
+        "id": 5,
+        "title": "Deep Work",
+        "pages": 0,
+        "genre": "Habitos",
+        "cover": "https://m.media-amazon.com/images/I/417yjF+Z5zL.jpg",
+        "sinopsis": "Deep Work, scritto da Cal Newport, esplora la necessità di immergersi completamente nel lavoro profondo, senza distrazioni superficiali. L'autore fornisce strategie per sviluppare la capacità di concentrazione e creare un ambiente che favorisca la produzione di lavoro di alta qualità e valore.",
+        "year": 0,
+        "ISBN": "0000000000",
+        "author": {
+          "name": "Cal Newport",
+          "otherBooks": []
+        },
+        "file": "public/libros/Habitos/Enfocate - Cal Newport (Mejorado).pdf"
+      },
+      {
+        "id": 6,
+        "title": "No Me Puedes Lastimar",
+        "pages": 288,
+        "genre": "Filosofia",
+        "cover": "https://m.media-amazon.com/images/I/61pDNU9qEGL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "En 'No Me Puedes Lastimar', David Goggins comparte su increíble viaje desde un inicio difícil hasta convertirse en un Navy SEAL y atleta de resistencia de clase mundial. Muestra cómo superar los límites físicos y mentales, y ofrece consejos sobre cómo lograr la grandeza a pesar de las adversidades.",
+        "year": 2021,
+        "ISBN": "9788417996930",
+        "author": {
+          "name": "David Goggins",
+          "otherBooks": [
+            "Can't Hurt Me: Master Your Mind and Defy the Odds"
+          ]
+        },
+        "file":"public/libros/Filosofia/No me Puedes Lastimar - David Goggins.pdf"
+      },
+      {
+        "id": 7,
+        "title": "El Sutil Arte de Que Te Importe un Carajo",
+        "pages": 224,
+        "genre": "Filosofia",
+        "cover": "https://m.media-amazon.com/images/I/610uZfHX6BL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "En 'El Sutil Arte de Que Te Importe un Carajo', Mark Manson desafía las nociones convencionales de felicidad y autoayuda. A través de su estilo irreverente, explora cómo abrazar la honestidad brutal y dejar de preocuparse por lo que piensan los demás puede llevar a una vida más satisfactoria y significativa.",
+        "year": 2016,
+        "ISBN": "978-607-31-6460-9",
+        "author": {
+          "name": "Mark Manson",
+          "otherBooks": [
+            "Models: A Comprehensive Guide to Attracting Women",
+            "Everything Is F*cked: A Book About Hope"
+          ]
+        },
+        "file": "public/libros/Autoayuda/El Sutil Arte de Que Te Importe un Carajo - Mark Manson.pdf"
+      },
+      {
+        "id": 8,
+        "title": "Harry Potter Saga completa",
+        "genre": "No desarollo personal",
+        "cover": "https://i.pinimg.com/564x/2b/15/46/2b1546d8b17c914f7974e58d3373fa6d.jpg",
+        "sinopsis": "Harry Potter è un giovane orfano che scopre di essere un mago il giorno del suo undicesimo compleanno, quando riceve l'invito a frequentare la Scuola di Magia e Stregoneria di Hogwarts. Lì, scoprirà il suo destino e affronterà il male rappresentato da Lord Voldemort.",
+        "year": 1997,
+        "ISBN": "9788478884454",
+        "author": {
+          "name": "J.K. Rowling",
+          "otherBooks": [
+            "Harry Potter e la camera dei segreti",
+            "Harry Potter e il prigioniero di Azkaban",
+            "Harry Potter e il calice di fuoco",
+            "Harry Potter e l'Ordine della Fenice",
+            "Harry Potter e il principe mezzosangue",
+            "Harry Potter e i doni della morte"
+          ]
+        },
+        "file": "public/libros/NoDesarolloPersonal/Harry Potter (Saga Completa) - J.K. Rowling (1).pdf"
+      }
+      ,  
+      {
+        "id": 9,
+        "title": "1984",
+        "author": {
+          "name": "George Orwell",
+          "otherBooks": ["Animal Farm"]
+        },
+        "genre": "No desarollo personal",
+        "cover": "https://cdn.foyles.co.uk/bookjackets/large/9780/1410/9780141036144.jpg",
+        "sinopsis": "Nel mondo totalitario del Grande Fratello, il cittadino Winston Smith lotta per mantenere un minimo di individualità e verità, mentre il Partito cerca di controllare ogni aspetto della sua vita e manipolare la realtà. Un romanzo che esplora il tema della libertà, del potere e della manipolazione.",
+        "year": 1949,
+        "ISBN": "9788845271122",
+        "file": "public/libros/Distopia/1984 - George Orwell.pdf"
+      },
+      {
+        "id": 10,
+        "title": "El monje que vendió su Ferrari",
+        "author": {
+          "name": "Robin Sharma",
+          "otherBooks": []
+        },
+        "genre": "Filosofia",
+        "cover": "https://m.media-amazon.com/images/I/81KbajSAThL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "El libro narra la historia de Julian Mantle, un exitoso abogado que, tras un grave ataque al corazón, decide cambiar completamente su vida. Viaja a la India y se encuentra con un monje que lo guía en un viaje de transformación personal, enseñándole importantes lecciones sobre la vida, el éxito y el bienestar interior.",
+        "year": 1996,
+        "ISBN": "9788845263660",
+        "file": "public/libri/Saggistica/El_monje_que_vendio_su_Ferrari.pdf"
+      },
+      {
+        "id": 11,
+        "title": "El arte de la guerra",
+        "author": {
+          "name": "Sun Tzu",
+          "otherBooks": []
+        },
+        "genre": "Emprendimiento",
+        "cover": "https://m.media-amazon.com/images/I/61aTf+8b6qL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "Este libro es un antiguo tratado militar chino que data del siglo V a.C. A pesar de su antigüedad, sus principios sobre estrategia y tácticas militares siguen siendo relevantes en el mundo contemporáneo. Sun Tzu explora estrategias para la guerra, pero también se aplican ampliamente en el ámbito de los negocios y la vida en general.",
+        "year": -500,
+        "ISBN": "9781234567890",
+        "file": "public/libros/Emprendimiento/El Arte de la Guerra.pdf"
+      },
+      {
+        "id": 12,
+        "title": "Estrategias de Warren Buffett",
+        "author": {
+          "name": "Warren Buffett",
+          "otherBooks": ["El inversor inteligente"]
+        },
+        "genre": "Emprendimiento",
+        "cover": "https://imgv2-2-f.scribdassets.com/img/document/655023486/original/c01b25c323/1687558120?v=1",
+        "sinopsis": "Este libro presenta las estrategias de inversión y filosofías de Warren Buffett, uno de los inversores más exitosos y reconocidos del mundo. Ofrece ideas y consejos sobre cómo abordar la inversión, tomar decisiones financieras sabias y construir riqueza a largo plazo.",
+        "year": 2022,
+        "ISBN": "9789876543210",
+        "file": "public/libros/Finanzas/Estrategias_de_Warren_Buffett.pdf"
+      },
+      {
+        "id": 13,
+        "title": "El club de las 5 de la mañana",
+        "author": {
+          "name": "Robin Sharma",
+          "otherBooks": ["El monje que vendió su Ferrari"]
+        },
+        "genre": "Habitos",
+        "cover": "https://www.mrbooks.com/mrbooks/portadas/9789585464421.webp",
+        "sinopsis": "En este libro, Robin Sharma comparte consejos sobre cómo aprovechar las primeras horas del día para mejorar tu vida y alcanzar el éxito. Presenta una rutina matutina específica para ayudar a las personas a maximizar su potencial y encontrar el equilibrio entre la vida personal y profesional.",
+        "year": 2018,
+        "ISBN": "9786077474585",
+        "file": "public/libros/Habitos/El Club de las 5 de la Mañana.pdf"
+      },
+      {
+        "id": 14,
+        "title": "Tiende tu cama: Cambia tu vida y quizás el mundo",
+        "author": {
+          "name": "William H. McRaven",
+          "otherBooks": []
+        },
+        "genre": "Habitos",
+        "cover": "data:image/jpeg;base64,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",
+        "sinopsis": "Este libro presenta principios fundamentales para lograr éxito y superación personal basados en experiencias reales del autor como almirante de la Armada de los Estados Unidos. McRaven comparte lecciones aprendidas durante su entrenamiento militar y cómo aplicarlas en la vida cotidiana para hacer cambios positivos.",
+        "year": 2017,
+        "ISBN": "9788499427039",
+        "file": "public/libros/Habitos/Tiende tu Cama - William H. McRaven.pdf"
+      },
+      {
+        "id": 15,
+        "title": "Tácticas de Conversación",
+        "author": {
+          "name": "Laura Martínez",
+          "otherBooks": ["El arte de la persuasión", "Hablar con confianza"]
+        },
+        "genre": "Ligar",
+        "cover": "https://m.media-amazon.com/images/I/61ZA1OCcVTL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "En este libro, Laura Martínez explora diversas tácticas y estrategias para mejorar tus habilidades de conversación. Desde cómo iniciar una conversación hasta cómo mantenerla interesante y significativa, este libro te guiará en el camino hacia una comunicación efectiva y enriquecedora.",
+        "year": 2021,
+        "ISBN": "9781234567890",
+        "file": "public/libros/Cortejo - Ligar/Tácticas de conversación para principiantes - Steve Allen.pdf"
+      },
+      {
+        "id": 16,
+        "title": "El metodo",
+        "author": {
+          "name": "Neil Strauss",
+          "otherBooks": [
+            "Emergency: This Book Will Save Your Life",
+            "Rules of the Game"
+          ]
+        },
+        "genre": "Ligar",
+        "cover": "https://www.perlego.com/books/RM_Books/ingram_csplus_gexhsuob/9781847673541.jpg",
+        "sinopsis": "Neil Strauss, un giornalista musicale, entra nel mondo della comunità di seduzione e pickup, documentando le sue esperienze e le lezioni apprese dai maestri dell'arte della seduzione. Il libro fornisce uno sguardo approfondito su questo mondo e solleva domande sulle dinamiche delle relazioni interpersonali.",
+        "year": 2005,
+        "ISBN": "9780060554736",
+        "file": "public/libros/Cortejo - Ligar/El Metodo - Neil Strauss.pdf"
+      },
+      {
+        "id": 17,
+        "title": "100M OFFERS",
+        "author": {
+          "name": "Neil Strauss",
+          "otherBooks": [
+            "Emergency: This Book Will Save Your Life",
+            "Rules of the Game"
+          ]
+        },
+        "genre": "Emprendimiento",
+        "cover": "https://m.media-amazon.com/images/I/612MJdimYqL._AC_UF1000,1000_QL80_.jpg",
+        "sinopsis": "How To Make Offers So Good People Feel Stupid Saying No",
+        "year": 2021,
+        "file": "public/libros/Emprendimiento/100m-Offers.pdf"
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+    ]

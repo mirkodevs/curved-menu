@@ -1,0 +1,216 @@
+/* :root {
+  --color1: #001B48;
+  --color2: #02457A;
+  --color3: #018ABE;
+  --color4: #97CADB;
+  --color5: #D6EBEE;
+  --color6: #07070c;
+} */
+
+
+:root {
+
+  --color1: #F4EEFF;
+  --color2: #424874;
+  --color3: #5C5470;
+  --color4: #A6B1E1;
+}
+:root {
+
+  --color1: #F5F5F5;
+  --color2: #364F6B;
+  --color3: #5C5470;
+  --color4: #3FC1C9;
+}
+
+body {
+
+  background: var(--color2);
+  background-size: 224px;
+  color: var(--color1);
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family:
+    Menlo,
+    Monaco,
+    Lucida Console,
+    Liberation Mono,
+    DejaVu Sans Mono,
+    Bitstream Vera Sans Mono,
+    Courier New,
+    monospace;
+}
+
+/* Personalizza la scrollbar su WebKit (Google Chrome, Safari, altri) */
+/* Larghezza della scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Colore e stile del cursore della scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color1); /* Cambia il colore come desiderato */
+  border-radius: 12px;
+}
+
+/* Colore di sfondo della scrollbar */
+::-webkit-scrollbar-track {
+  background-color: var(--color2); /* Cambia il colore come desiderato */
+}
+
+.btn-link{
+  text-decoration: none;
+  color: var(--color1);
+  width: 100%;
+  height: 100%;
+}
+.btn-link:hover{
+
+  color: var(--color1);
+}
+
+.filter span:nth-child(1){
+  box-shadow:none;
+}
+.filters{
+  min-height: 600px;
+  margin: 0 0 50px 0;
+}
+.filters,
+.filters span {
+  max-height: 600px;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 5px;
+  padding: 0;
+  color: var(--color1);
+}
+#filtra-por{
+  box-shadow: none;
+}
+/* Stile delle barre di scorrimento verticali */
+.filters::-webkit-scrollbar {
+  width: 10px;
+  /* Larghezza delle barre di scorrimento */
+
+}
+
+.filters::-webkit-scrollbar-thumb {
+  background-color: var(--color4);
+  /* Colore del cursore delle barre di scorrimento */
+}
+
+.filters::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Colore di sfondo della traccia delle barre di scorrimento */
+  border-radius: 10px;
+}
+
+.filter-section {
+  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  border-width: 0 0 var(--bs-list-group-border-width);
+  cursor: pointer;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .active-filter-section  {
+  border-right: 3px solid var(--color1);
+
+
+} */
+
+.filter {
+
+  display: none;
+
+}
+
+.active-filter-section+.filter {
+  display: flex;
+
+}
+
+.main-section {
+  width: 100%;
+
+}
+
+/* font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.filter .list-group {
+  min-width: 100%;
+}
+
+.list-group-item {
+
+  border: 0;
+  border-radius: 0;
+
+}
+
+.filter .list-group-item {
+
+  background-color: var(--color1);
+  color: var(--color3);
+  border-radius: 0;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+}
+
+.filter .list-group-item:hover {
+
+  background-color: var(--color2);
+
+
+}
+
+.filter .list-group-item:checked {
+
+  background-color: var(--color2);
+}
+
+.filter .list-group-item span {
+
+
+  color: var(--color2);
+  box-shadow: none;
+
+}
+
+.filter .list-group-item:hover span {
+
+  color: var(--color1);
+
+
+}
+.filter .list-group-item:has(input:checked) {
+  
+  background-color: var(--color4);
+}
+.filter .list-group-item input:checked + span{
+  color:var(--color1);
+}
